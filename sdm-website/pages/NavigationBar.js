@@ -1,18 +1,21 @@
+import Image from 'next/image';
 import styles from "../styles/NavigationBar.module.css";
 
 export default function NavigationBar() {
     return (
         <nav className={styles.navigation_bar}>
-            <img className={styles.navigation_bar__logo} alt="logo" src="/logo.png" width={"50px"} height={"50px"} />
-            <div className={styles.navigation_bar__title}>
-                <strong>Sonrisas del Mañana</strong>
-                <span>Un camino hacia el futuro</span>
+            <div className={styles.navigation_bar__logo_wrapper}>
+                <Image alt="logo" src="/logo.png" width={50} height={50} />
             </div>
-            <ul>
-                <button>Únete</button>
-                <button>Nosotros</button>
-                <button>Testimonios</button>
-                <button>Contacto</button>
+            <div className={styles.navigation_bar__title_box}>
+                <h1 className={styles.navigation_bar__title}>Sonrisas del Mañana</h1>
+                <h2 className={styles.navigation_bar__subtitle}>Un camino hacia el futuro</h2>
+            </div>
+            <ul className={styles.navigation_bar__button_box}>
+                <a className={styles.navigation_bar__yellow_button}>¡Únete!</a>
+                <a className={styles.navigation_bar__blue_button}>Nosotros</a>
+                <a className={styles.navigation_bar__blue_button}>Testimonios</a>
+                <a className={styles.navigation_bar__blue_button}>Contacto</a>
             </ul>
         </nav>
     );

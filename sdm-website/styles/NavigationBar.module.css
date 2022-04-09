@@ -1,11 +1,50 @@
 .navigation_bar {
     background-color: #00A2AD;
+    overflow: hidden;
+    border: 1px solid black;
 }
 
-.navigation_bar__logo {
+.navigation_bar__logo_wrapper {
     float: left;
+    margin: 0.5%;
+}
+
+.navigation_bar__title_box {
+    float: left;
+    font-size: 1.25rem;
+    margin: 0.5% 0;
 }
 
 .navigation_bar__title {
-    float: left;
+    font-weight: bold;
+
+}
+
+.navigation_bar__button_box {
+    float: right;
+    width: 50%;
+    text-align: right;
+    margin: 0;
+}
+
+.navigation_bar__yellow_button {
+    text-align: center;
+    font-size: 1.25rem;
+    display: inline-block;
+    background-color: #F6A800;
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    width: 110px;
+    margin: 0.5%;
+    padding: 2% 3%;
+}
+
+.navigation_bar__blue_button {
+    text-align: center;
+    font-size: 1.25rem;
+    display: inline-block;
+    background-color: #00A2AD;
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    width: 110px;
+    margin: 0.5%;
+    padding: 2% 3%;
 }
