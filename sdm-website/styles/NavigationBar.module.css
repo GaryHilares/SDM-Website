@@ -1,0 +1,11 @@
+.navigation_bar {
+    background-color: #00A2AD;
+}
+
+.navigation_bar__logo {
+    float: left;
+}
+
+.navigation_bar__title {
+    float: left;
+}
