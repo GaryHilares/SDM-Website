@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import NavigationBar from './NavigationBar.js'
+import Content from './Content.js'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
 
       <main>
         <NavigationBar />
+        <Content />
       </main>
 
       <footer>
