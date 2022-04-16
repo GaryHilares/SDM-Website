@@ -1,14 +1,27 @@
 import styles from "../styles/ContentStyles.module.css";
 import Image from 'next/image';
 import Footer from './Footer.js';
-import NavigationBar from './NavigationBar.js'
+import { NavigationBar, NavigationBarButton } from './NavigationBar.js'
 import { DescriptiveContentBox, DescriptiveContent } from './DescriptiveContent.js';
 import { TestimoniesBox, Testimony } from './Testimonies.js';
+import { useRef } from "react";
 
 export default function HomePage() {
+    const aboutUsRef = useRef(null);
+    const testimoniesRef = useRef(null);
+    const contactRef = useRef(null);
+    const goToJoin = () => window.location.href = '/join';
+    const scrollToAboutUs = () => aboutUsRef.current.scrollIntoView();
+    const scrollToTestimonies = () => testimoniesRef.current.scrollIntoView();
+    const scrollToContact = () => contactRef.current.scrollIntoView();
     return (
         <div className={styles.content} >
-            <NavigationBar />
+            <NavigationBar>
+                <NavigationBarButton onClick={goToJoin} highlight={true}>¡Únete!</NavigationBarButton>
+                <NavigationBarButton onClick={scrollToAboutUs}>Nosotros</NavigationBarButton>
+                <NavigationBarButton onClick={scrollToTestimonies}>Testimonios</NavigationBarButton>
+                <NavigationBarButton onClick={scrollToContact}>Contacto</NavigationBarButton>
+            </NavigationBar>
             <div className={styles.section_1}>
                 <div className={styles.section_1__main_wrapper}>
                     <div className={styles.section_1__main_wrapper__text}>
@@ -20,6 +33,7 @@ export default function HomePage() {
                     </div>
                 </div>
             </div>
+            <div ref={aboutUsRef}></div>
             <DescriptiveContentBox title={"Nosotros"}>
                 <DescriptiveContent title={"¿Quiénes somos?"} imgSrc={"/people.png"}>
                     Sonrisas del mañana nació como una idea para ayudar a quienes más lo necesitan y a quienes la pandemia
@@ -37,6 +51,7 @@ export default function HomePage() {
                     entornos para con ello tener líderes competitivos del futuro y así mejorar como sociedad.
                 </DescriptiveContent>
             </DescriptiveContentBox>
+            <div ref={testimoniesRef}></div>
             <TestimoniesBox title={"Testimonios"}>
                 <Testimony backgroundColor="#F6A800" author="Alguien" year={"Año"}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis leo nec eros fringilla lacinia.
@@ -59,6 +74,7 @@ export default function HomePage() {
                     Proin varius est mi. Fusce tincidunt nec augue in gravida.
                 </Testimony>
             </TestimoniesBox>
+            <div ref={contactRef}></div>
             <Footer />
         </div >
     );

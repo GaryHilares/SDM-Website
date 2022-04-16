@@ -28,6 +28,7 @@
 }
 
 .navigation_bar__yellow_button {
+    cursor: pointer;
     text-align: center;
     font-size: 1.25rem;
     display: inline-block;
@@ -38,7 +39,15 @@
     padding: 2% 3%;
 }
 
+.navigation_bar__yellow_button:hover,
+.navigation_bar__yellow_button:focus {
+    background-color: #FFB911;
+    box-shadow: none;
+    transition: all 0.2s;
+}
+
 .navigation_bar__blue_button {
+    cursor: pointer;
     text-align: center;
     font-size: 1.25rem;
     display: inline-block;
@@ -47,4 +56,11 @@
     width: 110px;
     margin: 0.5%;
     padding: 2% 3%;
+}
+
+.navigation_bar__blue_button:hover,
+.navigation_bar__blue_button:focus {
+    background-color: #11B2BE;
+    box-shadow: none;
+    transition: all 0.2s;
 }

@@ -3,7 +3,7 @@ import styles from '../styles/Footer.module.css';
 
 export default function Footer() {
     return (
-        <footer className={styles.footer}>
+        <footer className={styles.footer} data-aos="zoom-in">
             <div className={styles.footer__contact}>
                 <div className={styles.footer__contact__image_wrapper}>
                     <Image src={"/logo.png"} width={286} height={286} />

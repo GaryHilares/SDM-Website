@@ -1,7 +1,13 @@
 import Image from 'next/image';
 import styles from "../styles/NavigationBar.module.css";
 
-export default function NavigationBar() {
+function NavigationBarButton(props) {
+    return (
+        <a className={props.highlight ? styles.navigation_bar__yellow_button : styles.navigation_bar__blue_button} onClick={props.onClick}>{props.children}</a>
+    );
+}
+
+function NavigationBar(props) {
     return (
         <nav className={styles.navigation_bar}>
             <div className={styles.navigation_bar__logo_wrapper}>
@@ -12,11 +18,14 @@ export default function NavigationBar() {
                 <h2 className={styles.navigation_bar__subtitle}>Un camino hacia el futuro</h2>
             </div>
             <ul className={styles.navigation_bar__button_box}>
-                <a className={styles.navigation_bar__yellow_button}>¡Únete!</a>
-                <a className={styles.navigation_bar__blue_button}>Nosotros</a>
-                <a className={styles.navigation_bar__blue_button}>Testimonios</a>
-                <a className={styles.navigation_bar__blue_button}>Contacto</a>
+                {/*<a className={styles.navigation_bar__yellow_button} href={"https://stackoverflow.com"}>¡Únete!</a>
+                <a className={styles.navigation_bar__blue_button} onClick={() => { props.target() }}>Nosotros</a>
+                <a className={styles.navigation_bar__blue_button} href={"https://dle.rae.es"}>Testimonios</a>
+                <a className={styles.navigation_bar__blue_button} href={"https://dictionary.cambridge.org"}>Contacto</a>*/}
+                {props.children}
             </ul>
         </nav>
     );
 }
+
+export { NavigationBar, NavigationBarButton };
