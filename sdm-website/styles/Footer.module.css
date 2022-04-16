@@ -1,0 +1,44 @@
+.footer {
+    background-color: #00A2AD;
+    border-radius: 113px 113px 0 0;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footer__contact {
+    padding: 50px;
+    overflow: auto;
+    width: 55%;
+    margin: auto;
+}
+
+.footer__contact__image_wrapper {
+    float: left;
+    margin-right: 20px;
+}
+
+.footer__contact__text_wrapper {
+    margin-left: 20px;
+}
+
+.footer__contact__title {
+    font-weight: bold;
+    font-size: 1.875rem;
+}
+
+.footer__contact__text {
+    font-size: 1.875rem;
+}
+
+.footer__copyright_notice__wrapper {
+    clear: both;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.footer__copyright_notice__text {
+    display: block;
+    font-style: italic;
+    font-size: 1.25rem;
+    padding: 0.25rem;
+}

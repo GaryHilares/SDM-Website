@@ -1,0 +1,41 @@
+.descriptive_content_box {
+    color: white;
+    width: 80%;
+    padding: 10%;
+    position: relative;
+    background-color: #00A2AD;
+    border-radius: 113px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.descriptive_content_box__title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 4.25rem;
+}
+
+.descriptive_content_box__element__wrapper {
+    overflow: hidden;
+    padding: 30px 0;
+}
+
+.descriptive_content_box__element__image_wrapper {
+    width: 50%;
+    text-align: center;
+}
+
+.descriptive_content_box__element__text_wrapper {
+    width: 50%;
+}
+
+.descriptive_content_box__element__title {
+    font-size: 4.25rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.descriptive_content_box__element__text {
+    font-size: 1.125rem;
+    line-height: 27px;
+}

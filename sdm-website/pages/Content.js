@@ -1,90 +1,14 @@
 import styles from "../styles/ContentStyles.module.css";
 import Image from 'next/image';
+import Footer from './Footer.js';
+import NavigationBar from './NavigationBar.js'
+import { DescriptiveContentBox, DescriptiveContent } from './DescriptiveContent.js';
+import { TestimoniesBox, Testimony } from './Testimonies.js';
 
-function Footer() {
+export default function HomePage() {
     return (
-        <footer style={{ backgroundColor: "#00A2AD", borderRadius: "113px 113px 0 0", boxShadow: "inset 0px 4px 4px rgba(0, 0, 0, 0.25)" }}>
-
-            <div style={{ padding: "50px", overflow: "auto", width: "55%", margin: "auto" }}>
-                <div style={{ float: "left", marginRight: "20px" }}>
-                    <Image src={"/logo.png"} width={286} height={286} />
-                </div>
-                <div style={{ marginLeft: "20px" }}>
-                    <h1 style={{ fontWeight: "bold", fontSize: "1.875rem" }}>Contáctanos</h1>
-                    <p style={{ fontSize: "1.875rem" }}>Instagram: @sonrisasdelmanana_</p>
-                    <p style={{ fontSize: "1.875rem" }}>Correo: sdelmanana@gmail.com</p>
-                </div>
-            </div>
-
-            <div style={{ clear: "both", color: "white", backgroundColor: "black", textAlign: "center" }}>
-                <span style={{ display: "block", fontStyle: "italic", fontSize: "1.25rem", padding: "0.25rem" }}>Copyright © 2022 por Sonrisas del Mañana. Todos los derechos reservados.</span>
-            </div>
-        </footer >
-    );
-}
-
-function DescriptiveContentBox(props) {
-    return (
-        <div className={styles.section_2} style={{ overflow: "hidden" }}>
-            <h1 className={styles.section_2__title}>{props.title}</h1>
-            <div>
-                {props.children}
-            </div>
-        </div>
-    );
-}
-
-function DescriptiveContent(props) {
-    return (
-        <div style={{ overflow: "hidden", padding: "30px 0" }}>
-            <div style={{ float: props.invertOrder ? "right" : "left", width: "50%", textAlign: "center" }}>
-                <Image src={props.imgSrc} width={358} height={237} />
-            </div>
-            <div style={{ float: props.invertOrder ? "left" : "right", width: "50%" }}>
-                <h2 className={styles.section_2__subtitle} style={{ textAlign: "center", padding: "10px" }}>{props.title}</h2>
-                <p className={styles.section_2__text} style={{ lineHeight: "27px" }}>
-                    {props.children}
-                </p>
-            </div>
-
-        </div>
-    );
-}
-
-function TestimoniesBox(props) {
-    return (
-        <div>
-            <h1 style={{ textAlign: "center", fontSize: "4.25rem", fontWeight: "bold", margin: "3rem 0" }}>{props.title}</h1>
-            <div style={{ overflow: "hidden" }}>
-                {props.children}
-            </div>
-        </div>
-    );
-}
-
-function Testimony(props) {
-    return (
-        <div style={{
-            backgroundColor: props.backgroundColor,
-            float: props.goRight ? "right" : "left",
-            borderRadius: "32px",
-            margin: props.goRight ? "0 12.5% 5% 0" : "0 0 5% 12.5%",
-            width: "30%",
-            padding: "2.5%",
-            textAlign: props.goRight ? "left" : "right",
-            lineHeight: "27px"
-        }}>
-            <div>
-                {props.children}
-            </div>
-            <span style={{ display: "block", width: "100%", textAlign: "right", fontWeight: "bold" }}>~{props.author} ({props.year})</span>
-        </div>
-    );
-}
-
-export default function Content() {
-    return (
-        <div className={styles.content}>
+        <div className={styles.content} >
+            <NavigationBar />
             <div className={styles.section_1}>
                 <div className={styles.section_1__main_wrapper}>
                     <div className={styles.section_1__main_wrapper__text}>
