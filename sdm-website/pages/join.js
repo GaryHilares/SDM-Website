@@ -4,6 +4,7 @@ import Presentation from './Presentation.js';
 import { NavigationBar, NavigationBarButton } from './NavigationBar';
 import { DescriptiveContentBox, DescriptiveContent } from './DescriptiveContent.js';
 import styles from '../styles/main.module.css';
+import JoinForm from './joinForm.js';
 
 export default function JoinSite() {
     const goToHome = () => window.location.href = '/';
@@ -54,11 +55,9 @@ export default function JoinSite() {
                         <br />3. Tengas suficiente disponibilidad de tiempo para realizar las labores que se te encarguen por parte de Sonrisas del Mañana.
                     </DescriptiveContent>
                 </DescriptiveContentBox>
+                <JoinForm />
                 <Footer />
             </main>
-
-            <footer>
-            </footer>
         </div>
     )
 }

@@ -37,6 +37,7 @@
     width: 110px;
     margin: 0.5%;
     padding: 2% 3%;
+    transition: all 0.5s;
 }
 
 .navigation_bar__yellow_button:hover,
@@ -56,6 +57,7 @@
     width: 110px;
     margin: 0.5%;
     padding: 2% 3%;
+    transition: all 0.5s;
 }
 
 .navigation_bar__blue_button:hover,
