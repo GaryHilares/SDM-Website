@@ -5,6 +5,7 @@ import { NavigationBar, NavigationBarButton } from './NavigationBar';
 import { DescriptiveContentBox, DescriptiveContent } from './DescriptiveContent.js';
 import styles from '../styles/main.module.css';
 import JoinForm from './joinForm.js';
+import { PhotoDisplay, PhotosDisplayBox } from './PhotosDisplay.js';
 
 export default function JoinSite() {
     const goToHome = () => window.location.href = '/';
@@ -41,6 +42,29 @@ export default function JoinSite() {
                         que puedas hacer saber a otras personas del trabajo que has realizado con nosotros.
                     </DescriptiveContent>
                 </DescriptiveContentBox>
+                <PhotosDisplayBox title={"¿Qué puedo hacer?"}>
+                    <PhotoDisplay imgSrc="/logo.png">
+                        En el equipo de marketing tenemos diferentes comisiones a las que podrás elegir unirte. Entre las actividades que podrás hacer están:
+                        <br />- Crear contenido para nuestras redes sociales.
+                        <br />- Participar en el desarrollo de nuestro sitio web.
+                        <br />- Dar a conocer el programa a potenciales voluntarios.
+                        <br />- Realizar entrevistas a personas interesadas en unirse.
+                        <br />- Interactuar y analizar las estadísticas de creador de contenido de nuestras redes sociales.
+                    </PhotoDisplay>
+                    <PhotoDisplay imgSrc="/logo.png">
+                        Si decides unirte al equipo de contactos, tu trabajo será:
+                        <br />- Presentar las propuestas de la organización a otras entidades como ONG's, casa hogares o cualquier otro potencial aliado.
+                        <br />- Buscar posibles aliados y presentarlos a la directiva para su aprobación y para empezar el contacto con ellos.
+                        <br />- Una vez la propuesta haya sido aprobada, iniciar el contacto con nuestros nuevos posibles aliados para establecer una alianza.
+                        <br />- Coordinar con nuestras aliados para realizar planes de ayuda mutua.
+                    </PhotoDisplay>
+                    <PhotoDisplay imgSrc="/logo.png">
+                        Aquellos que deciden unirse al equipo de proyectos se encargan de:
+                        <br />- Crear, recibir y transmitir ideas de proyectos que pudiese realizar la organización.
+                        <br />- Redactar propuestas las propuestas de trabajo y enviárselos a los supervisores del equipo para su aprobación.
+                        <br />- Planificar las propuestas de trabajo aprobadas y sus detalles en colaboración de los supervisores y la directiva. Esto implica establecer metas, objetivos, estrategias horarios y más.
+                    </PhotoDisplay>
+                </PhotosDisplayBox>
                 <DescriptiveContentBox title={"Elegibilidad y requisitos"}>
                     <DescriptiveContent title={"Al postular"} imgSrc={'/check.png'}>
                         Para postular como voluntario en Sonrisas Del Mañana, debes de cumplir los siguientes requisitos:
