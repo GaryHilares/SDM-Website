@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Footer from './Footer.js';
-import Presentation from './Presentation.js';
-import { NavigationBar, NavigationBarButton } from './NavigationBar';
+import Footer from '../components/Footer.js';
+import Presentation from '../components/Presentation.js';
+import { NavigationBar, NavigationBarButton } from '../components/NavigationBar';
 import styles from '../styles/main.module.css';
 
 export default function ThanksSite() {
