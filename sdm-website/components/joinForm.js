@@ -2,7 +2,7 @@ import styles from "../styles/joinForm.module.css";
 
 export default function JoinForm() {
     return (
-        <div className={styles.form_wrapper} data-aos="zoom-out">
+        <div className={styles.form_wrapper} data-aos="flip-right">
             <h1 className={styles.form__title}>Formulario de postulación</h1>
             <form action="https://www.actionforms.io/e/r/gary-test" method="POST">
                 <div className={styles.form__input_wrapper}>
