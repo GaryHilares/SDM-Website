@@ -16,7 +16,7 @@ export default function JoinSite() {
                 <meta name="description" content="Sonrisas del Mañana: Un camino hacia el futuro." />
                 <link rel="icon" href="/sdm.ico" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
             </Head>
 
@@ -53,7 +53,7 @@ export default function JoinSite() {
                     </PhotoDisplay>
                     <PhotoDisplay imgSrc="/logo.png">
                         Si decides unirte al equipo de contactos, tu trabajo será:
-                        <br />- Presentar las propuestas de la organización a otras entidades como ONG's, casa hogares o cualquier otro potencial aliado.
+                        <br />- Presentar las propuestas de la organización a otras entidades como ONG&apos;s, casa hogares o cualquier otro potencial aliado.
                         <br />- Buscar posibles aliados y presentarlos a la directiva para su aprobación y para empezar el contacto con ellos.
                         <br />- Una vez la propuesta haya sido aprobada, iniciar el contacto con nuestros nuevos posibles aliados para establecer una alianza.
                         <br />- Coordinar con nuestras aliados para realizar planes de ayuda mutua.

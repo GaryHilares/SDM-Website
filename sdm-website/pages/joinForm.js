@@ -13,7 +13,7 @@ export default function JoinForm() {
                 </div>
                 <div className={styles.form__input_wrapper}>
                     <span className={styles.form__notice}>
-                        Al hacer clic en "Enviar", aceptas recibir correos de Sonrisas del Mañana para comunicarte
+                        Al hacer clic en &quot;Enviar&quot;, aceptas recibir correos de Sonrisas del Mañana para comunicarte
                         sobre el estado de tu aplicación.
                     </span>
                 </div>
