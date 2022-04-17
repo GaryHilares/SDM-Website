@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import HomePage from './Content.js'
+import HomePage from './Homepage.js'
 
 export default function Home() {
   return (
@@ -16,9 +16,6 @@ export default function Home() {
       <main>
         <HomePage />
       </main>
-
-      <footer>
-      </footer>
     </div>
   )
 }

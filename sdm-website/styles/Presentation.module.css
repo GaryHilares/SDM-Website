@@ -1,16 +1,9 @@
-.content {
-    background-color: #BFE0FF;
-    background-image: url('/background.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.section_1 {
+.presentation {
     height: 769px;
     position: relative;
 }
 
-.section_1__main_wrapper {
+.presentation__main_wrapper {
     position: absolute;
     top: 20%;
     left: 50%;
@@ -19,7 +12,8 @@
     margin: auto;
 }
 
-.section_1__main_wrapper__text {
+.presentation__main_wrapper_with_logo__text {
+    text-align: right;
     display: block;
     float: left;
     height: 100%;
@@ -28,18 +22,24 @@
     transform: translateY(5%);
 }
 
-.section_1__main_title {
+.presentation__main_wrapper__text {
+    text-align: center;
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 105px;
+}
+
+.presentation__main_title {
     font-weight: bold;
-    text-align: right;
     font-size: 4.375rem;
 }
 
-.section_1__main_subtitle {
-    text-align: right;
+.presentation__main_subtitle {
     font-size: 2.8125rem;
 }
 
-.section_1__main_wrapper__logo {
+.presentation__main_wrapper__logo {
     width: 40%;
     text-align: center;
     float: right;

@@ -1,10 +1,10 @@
-import styles from "../styles/ContentStyles.module.css";
-import Image from 'next/image';
+import styles from "../styles/main.module.css";
 import Footer from './Footer.js';
 import { NavigationBar, NavigationBarButton } from './NavigationBar.js'
 import { DescriptiveContentBox, DescriptiveContent } from './DescriptiveContent.js';
 import { TestimoniesBox, Testimony } from './Testimonies.js';
 import { useRef } from "react";
+import Presentation from "./Presentation.js";
 
 export default function HomePage() {
     const aboutUsRef = useRef(null);
@@ -22,17 +22,7 @@ export default function HomePage() {
                 <NavigationBarButton onClick={scrollToTestimonies}>Testimonios</NavigationBarButton>
                 <NavigationBarButton onClick={scrollToContact}>Contacto</NavigationBarButton>
             </NavigationBar>
-            <div className={styles.section_1}>
-                <div className={styles.section_1__main_wrapper}>
-                    <div className={styles.section_1__main_wrapper__text}>
-                        <h1 className={styles.section_1__main_title}>Sonrisas del Mañana</h1>
-                        <h2 className={styles.section_1__main_subtitle}>Un camino hacia el futuro</h2>
-                    </div>
-                    <div className={styles.section_1__main_wrapper__logo}>
-                        <Image alt="logo" src="/SDM Happy Face.png" width={350} height={350} />
-                    </div>
-                </div>
-            </div>
+            <Presentation title={"Sonrisas del Mañana"} subtitle={"Un camino hacia el futuro"} imgSrc={"/SDM Happy Face.png"} />
             <div ref={aboutUsRef}></div>
             <DescriptiveContentBox title={"Nosotros"}>
                 <DescriptiveContent title={"¿Quiénes somos?"} imgSrc={"/people.png"}>
