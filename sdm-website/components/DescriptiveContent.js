@@ -16,7 +16,7 @@ function DescriptiveContent(props) {
     return (
         <div className={styles.descriptive_content_box__element__wrapper}>
             <div className={styles.descriptive_content_box__element__image_wrapper} data-aos={props.invertOrder ? "fade-left" : "fade-right"} style={{ float: props.invertOrder ? "right" : "left" }}>
-                <Image src={props.imgSrc} width={358} height={237} />
+                <Image src={props.imgSrc} width={350} height={350} objectFit='contain' />
             </div>
             <div className={styles.descriptive_content_box__element__text_wrapper} data-aos={props.invertOrder ? "fade-right" : "fade-left"} style={{ float: props.invertOrder ? "left" : "right" }}>
                 <h2 className={styles.descriptive_content_box__element__title}>{props.title}</h2>
