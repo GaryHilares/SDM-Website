@@ -1,32 +1,17 @@
 .presentation {
-    height: 769px;
-    position: relative;
+    min-height: 600px;
 }
 
 .presentation__main_wrapper {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%);
+    margin: 10% auto;
     width: 65%;
-    margin: auto;
-}
-
-.presentation__main_wrapper_with_logo__text {
-    text-align: right;
-    display: block;
-    float: left;
-    height: 100%;
-    width: 60%;
-    line-height: 105px;
-    transform: translateY(5%);
+    overflow: auto;
 }
 
 .presentation__main_wrapper__text {
     text-align: center;
     display: block;
     height: 100%;
-    width: 100%;
     line-height: 105px;
 }
 
@@ -40,7 +25,5 @@
 }
 
 .presentation__main_wrapper__logo {
-    width: 40%;
     text-align: center;
-    float: right;
 }
