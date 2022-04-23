@@ -24,9 +24,6 @@ export default function ThanksSite() {
                 <Presentation title={"¡Gracias por rellenar el formulario!"} subtitle={"Por favor espera mientras revisamos tu solicitud y te contactamos de vuelta."} />
                 <Footer />
             </main>
-
-            <footer>
-            </footer>
         </div>
     )
 }
