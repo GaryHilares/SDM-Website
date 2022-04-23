@@ -21,12 +21,7 @@
 }
 
 .descriptive_content_box__element__image_wrapper {
-    width: 50%;
     text-align: center;
-}
-
-.descriptive_content_box__element__text_wrapper {
-    width: 50%;
 }
 
 .descriptive_content_box__element__title {
