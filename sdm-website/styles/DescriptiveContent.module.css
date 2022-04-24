@@ -48,4 +48,8 @@
     .descriptive_content_box__element__text_wrapper {
         width: 100%;
     }
+
+    .descriptive_content_box__element__title {
+        font-size: 3rem;
+    }
 }
