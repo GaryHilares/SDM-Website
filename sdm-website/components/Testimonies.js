@@ -20,7 +20,6 @@ function Testimony(props) {
             float: isWide ? (props.goRight ? "right" : "left") : "none",
             margin: isWide ? (props.goRight ? "0 12.5% 5% 0" : "0 0 5% 12.5%") : "0 5% 5%",
             textAlign: isWide ? (props.goRight ? "left" : "right") : "center",
-            width: isWide ? "30%" : "80%",
         }}
             data-aos={props.goRight ? "fade-left" : "fade-right"}
         >

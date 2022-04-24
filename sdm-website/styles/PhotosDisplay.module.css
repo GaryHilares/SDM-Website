@@ -1,0 +1,43 @@
+.photo_display {
+    text-align: inherit;
+}
+
+.photo_display__description {
+    font-size: 1.125em;
+    width: 40%;
+    background-color: #F6A800;
+    min-height: 325px;
+    padding: 20px;
+    border-radius: 32px;
+    line-height: 27px;
+    display: inline-block;
+    margin: 0 0 25px 15%;
+}
+
+.photo_display__image_wrapper {
+    float: right;
+    margin: 0 15% 25px 0;
+}
+
+.photos_display_box__title {
+    font-size: 4.375em;
+    text-align: center;
+    font-weight: bold;
+    margin: 3rem;
+}
+
+@media(max-width: 800px) {
+    .photo_display {
+        text-align: center;
+    }
+
+    .photo_display__description {
+        width: 80%;
+        margin: 0 0 25px 0;
+    }
+
+    .photo_display__image_wrapper {
+        float: none;
+        margin: 0 0 25px 0;
+    }
+}

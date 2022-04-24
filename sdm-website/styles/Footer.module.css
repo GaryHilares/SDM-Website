@@ -8,6 +8,13 @@
     padding: 50px 0;
     overflow: auto;
     margin: auto;
+    width: 55%;
+}
+
+.footer__contact__image_wrapper {
+    float: left;
+    margin-right: 20px;
+    text-align: center;
 }
 
 .footer__contact__title {
@@ -17,6 +24,12 @@
 
 .footer__contact__text {
     font-size: 1.875rem;
+}
+
+.footer__contact__text_wrapper {
+    overflow-wrap: normal;
+    margin-left: 20px;
+    float: right;
 }
 
 .footer__copyright_notice__wrapper {
@@ -31,4 +44,22 @@
     font-style: italic;
     font-size: 1.25rem;
     padding: 0.25rem;
+}
+
+@media (max-width: 800px) {
+    .footer_contact {
+        width: 80%;
+    }
+
+    .footer__contact__image_wrapper {
+        float: none;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .footer__contact__text_wrapper {
+        margin-left: 0;
+        float: none;
+        overflow-wrap: break-word;
+    }
 }

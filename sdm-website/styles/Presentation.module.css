@@ -5,6 +5,7 @@
 .presentation__main_wrapper {
     margin: 10% auto;
     overflow: auto;
+    width: 65%;
 }
 
 .presentation__main_wrapper__text {
@@ -12,6 +13,7 @@
     display: block;
     height: 100%;
     line-height: 105px;
+    float: left;
 }
 
 .presentation__main_title {
@@ -25,4 +27,21 @@
 
 .presentation__main_wrapper__logo {
     text-align: center;
+    width: 40%;
+    float: right;
+}
+
+@media (max-width: 800px) {
+    .presentation__main_wrapper {
+        width: 95%;
+    }
+
+    .presentation__main_wrapper__text {
+        float: none;
+    }
+
+    .presentation__main_wrapper__logo {
+        width: 100%;
+        float: none;
+    }
 }

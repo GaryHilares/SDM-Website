@@ -13,6 +13,7 @@
     border-radius: 32px;
     padding: 2.5%;
     line-height: 27px;
+    width: 30%;
 }
 
 .testimony_box__element__author {
@@ -20,4 +21,10 @@
     width: 100%;
     text-align: right;
     font-weight: bold;
+}
+
+@media (max-width: 800px) {
+    .testimony_box__element {
+        width: 80%;
+    }
 }

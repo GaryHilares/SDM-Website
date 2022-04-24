@@ -22,6 +22,11 @@
 
 .descriptive_content_box__element__image_wrapper {
     text-align: center;
+    width: 50%;
+}
+
+.descriptive_content_box__element__text_wrapper {
+    width: 50%;
 }
 
 .descriptive_content_box__element__title {
@@ -33,4 +38,14 @@
 .descriptive_content_box__element__text {
     font-size: 1.125rem;
     line-height: 27px;
+}
+
+@media (max-width: 800px) {
+    .descriptive_content_box__element__image_wrapper {
+        width: 100%;
+    }
+
+    .descriptive_content_box__element__text_wrapper {
+        width: 100%;
+    }
 }

@@ -1,27 +1,13 @@
 import Image from 'next/image';
-import { useMediaQuery } from '../functions/hooks.js';
+import styles from '../styles/PhotosDisplay.module.css';
 
 function PhotoDisplay(props) {
-    const isWide = useMediaQuery('(min-width: 800px)');
     return (
-        <div style={{ textAlign: isWide ? "inherit" : "center" }}>
-            <div style={{
-                fontSize: "1.125em",
-                width: isWide ? "40%" : "80%",
-                backgroundColor: "#F6A800",
-                minHeight: "325px",
-                padding: "20px",
-                borderRadius: "32px",
-                lineHeight: "27px",
-                display: 'inline-block',
-                margin: isWide ? '0 0 25px 15%' : "0 0 25px 0",
-            }} data-aos="fade-right">
+        <div className={styles.photo_display}>
+            <div className={styles.photo_display__description} data-aos="fade-right">
                 {props.children}
             </div>
-            <div style={{
-                float: isWide ? "right" : "none",
-                margin: isWide ? '0 15% 25px 0' : "0 0 25px 0",
-            }} data-aos="fade-left" >
+            <div className={styles.photo_display__image_wrapper} data-aos="fade-left">
                 <Image src={props.imgSrc} width={360} height={360} />
             </div>
         </div>
@@ -32,7 +18,7 @@ function PhotoDisplay(props) {
 function PhotosDisplayBox(props) {
     return (
         <div>
-            <h1 style={{ fontSize: "4.375em", textAlign: "center", fontWeight: "bold", margin: "3rem" }} data-aos="fade-up">{props.title}</h1>
+            <h1 className={styles.photos_display_box__title} data-aos="fade-up">{props.title}</h1>
             <div>
                 {props.children}
             </div>
