@@ -31,7 +31,7 @@
     float: right;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     .presentation__main_wrapper {
         width: 95%;
     }

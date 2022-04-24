@@ -23,7 +23,7 @@
     font-weight: bold;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     .testimony_box__element {
         width: 80%;
     }

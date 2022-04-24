@@ -74,7 +74,7 @@
     transition: all 0.2s;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     .navigation_bar__main_wrapper {
         width: 100%;
         text-align: center;

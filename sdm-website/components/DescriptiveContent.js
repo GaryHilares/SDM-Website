@@ -14,7 +14,7 @@ function DescriptiveContentBox(props) {
 }
 
 function DescriptiveContent(props) {
-    const isWide = useMediaQuery('(min-width: 800px)');
+    const isWide = useMediaQuery('(min-width: 1200px)');
     return (
         <div className={styles.descriptive_content_box__element__wrapper}>
             <div className={styles.descriptive_content_box__element__image_wrapper} data-aos={props.invertOrder ? "fade-left" : "fade-right"}

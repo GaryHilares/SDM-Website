@@ -13,7 +13,7 @@ function TestimoniesBox(props) {
 }
 
 function Testimony(props) {
-    const isWide = useMediaQuery('(min-width: 800px)');
+    const isWide = useMediaQuery('(min-width: 1200px)');
     return (
         <div className={styles.testimony_box__element} style={{
             backgroundColor: props.backgroundColor,

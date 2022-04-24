@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { useMediaQuery } from "../functions/hooks.js";
 
 export default function Presentation(props) {
-    const isWide = useMediaQuery("(min-width: 800px)");
+    const isWide = useMediaQuery("(min-width: 1200px)");
     return (
         <div className={styles.presentation}>
             <div className={styles.presentation__main_wrapper}>
