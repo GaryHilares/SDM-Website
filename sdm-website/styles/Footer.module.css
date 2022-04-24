@@ -47,6 +47,10 @@
 }
 
 @media (max-width: 1200px) {
+    .footer {
+        border-radius: 50px;
+    }
+
     .footer__contact {
         width: 80%;
     }

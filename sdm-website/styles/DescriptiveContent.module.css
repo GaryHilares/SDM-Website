@@ -41,6 +41,10 @@
 }
 
 @media (max-width: 1200px) {
+    .descriptive_content_box {
+        border-radius: 50px;
+    }
+
     .descriptive_content_box__element__image_wrapper {
         width: 100%;
     }
