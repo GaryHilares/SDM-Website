@@ -47,7 +47,7 @@
 }
 
 @media (max-width: 1200px) {
-    .footer_contact {
+    .footer__contact {
         width: 80%;
     }
 
