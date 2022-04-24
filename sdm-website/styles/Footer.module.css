@@ -13,7 +13,7 @@
 
 .footer__contact__image_wrapper {
     float: left;
-    margin-right: 20px;
+    margin: 0 20px 0 0;
     text-align: center;
 }
 
@@ -30,6 +30,7 @@
     overflow-wrap: normal;
     margin-left: 20px;
     float: right;
+    line-height: 2.5rem;
 }
 
 .footer__copyright_notice__wrapper {
@@ -59,6 +60,7 @@
         float: none;
         margin-right: 0;
         text-align: center;
+        margin: 0 0 20px 0;
     }
 
     .footer__contact__text_wrapper {
