@@ -25,7 +25,7 @@ export default function JoinSite() {
                     <NavigationBarButton onClick={goToHome}>Inicio</NavigationBarButton>
                 </NavigationBar>
                 <Presentation title={"¡Únete a Sonrisas del Mañana!"} subtitle={"Ser voluntario es una experiencia única y aleccionadora de dar y recibir."} />
-                <DescriptiveContentBox title={"¿Por qué volverse voluntario?"}>
+                <DescriptiveContentBox title={"¿Por qué participar?"}>
                     <DescriptiveContent title={"Dar oportunidades"} imgSrc={'/give.png'} invertOrder={true}>
                         En Sonrisas del Mañana tenemos un gran compromiso social por ayudar a otras personas, siendo que
                         buscamos permitir que los benificiarios del programa tengan la oportunidad de desarrollarse de forma
@@ -65,7 +65,7 @@ export default function JoinSite() {
                         <br />- Planificar las propuestas de trabajo aprobadas y sus detalles en colaboración de los supervisores y la directiva. Esto implica establecer metas, objetivos, estrategias horarios y más.
                     </PhotoDisplay>
                 </PhotosDisplayBox>
-                <DescriptiveContentBox title={"Elegibilidad y requisitos"}>
+                <DescriptiveContentBox title={"¿Cuáles son los requisitos?"}>
                     <DescriptiveContent title={"Al postular"} imgSrc={'/check.png'}>
                         Para postular como voluntario en Sonrisas Del Mañana, debes de cumplir los siguientes requisitos:
                         <br />1. Tener como mínimo 15 años.
