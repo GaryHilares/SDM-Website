@@ -284,6 +284,11 @@ table {
 
 /* </CSS Reset> */
 
+@media (not (min-width: 800px)) {
+  html {
+    font-size: 90%;
+  }
+}
 
 html,
 body {

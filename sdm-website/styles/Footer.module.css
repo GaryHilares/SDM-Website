@@ -5,19 +5,9 @@
 }
 
 .footer__contact {
-    padding: 50px;
+    padding: 50px 0;
     overflow: auto;
-    width: 55%;
     margin: auto;
-}
-
-.footer__contact__image_wrapper {
-    float: left;
-    margin-right: 20px;
-}
-
-.footer__contact__text_wrapper {
-    margin-left: 20px;
 }
 
 .footer__contact__title {
