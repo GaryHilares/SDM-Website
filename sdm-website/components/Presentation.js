@@ -6,7 +6,7 @@ export default function Presentation(props) {
     const isWide = useMediaQuery("(min-width: 800px)");
     return (
         <div className={styles.presentation}>
-            <div className={styles.presentation__main_wrapper}>
+            <div className={styles.presentation__main_wrapper} style={{ width: isWide ? "65%" : "95%" }}>
                 <div className={styles.presentation__main_wrapper__text} style={
                     {
                         width: isWide && props.imgSrc ? "60%" : "100%",
