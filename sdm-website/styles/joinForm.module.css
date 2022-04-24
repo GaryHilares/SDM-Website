@@ -23,6 +23,11 @@
     width: 40%;
 }
 
+.form__email_entry::placeholder {
+    font-family: Poppins;
+    font-size: 1.25rem;
+}
+
 .form__email_entry:focus {
     outline: 1px solid blue;
 }
