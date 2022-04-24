@@ -286,7 +286,7 @@ table {
 
 @media (not (min-width: 800px)) {
   html {
-    font-size: 90%;
+    font-size: 80%;
   }
 }
 
