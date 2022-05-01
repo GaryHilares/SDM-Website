@@ -27,6 +27,10 @@ export default function Home() {
                 <meta name="copyright" content="Gary Hilares" />
                 <meta name="robots" content="index" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta name="og:title" content="Voluntariado Sonrisas del Mañana: Un camino hacia el futuro" />
+                <meta name="og:description" content="Sonrisas del mañana nació como una idea para ayudar a quienes más lo necesitan y a quienes la pandemia los afectó en mayor medida." />
+                <meta name="og:image" content="https://sonrisasdelmanana.org.pe/_next/image?url=%2Flogo.png&w=256&q=75" />
+                <meta name="og:url" content="https://sonrisasdelmanana.org.pe/join" />
 
                 {/* Font links */}
                 <link rel="preconnect" href="https://fonts.googleapis.com" />

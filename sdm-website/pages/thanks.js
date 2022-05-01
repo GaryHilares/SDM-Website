@@ -18,6 +18,10 @@ export default function ThanksSite() {
                 <meta name="copyright" content="Gary Hilares" />
                 <meta name="robots" content="noindex" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta name="og:title" content="Gracias por tu respuesta" />
+                <meta name="og:description" content="Gracias por rellenar el formulario. Revisaremos tu aplicación y te responderemos proximamente." />
+                <meta name="og:image" content="https://sonrisasdelmanana.org.pe/_next/image?url=%2Flogo.png&w=256&q=75" />
+                <meta name="og:url" content="https://sonrisasdelmanana.org.pe/thanks" />
 
                 {/* Font links */}
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
