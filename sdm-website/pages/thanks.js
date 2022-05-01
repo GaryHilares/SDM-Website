@@ -22,6 +22,8 @@ export default function ThanksSite() {
                 <meta name="og:description" content="Gracias por rellenar el formulario. Revisaremos tu aplicación y te responderemos proximamente." />
                 <meta name="og:image" content="https://sonrisasdelmanana.org.pe/_next/image?url=%2Flogo.png&w=256&q=75" />
                 <meta name="og:url" content="https://sonrisasdelmanana.org.pe/thanks" />
+                <meta name="og:locale" content="es_ES" />
+                <meta name="og:type" content="website" />
 
                 {/* Font links */}
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
