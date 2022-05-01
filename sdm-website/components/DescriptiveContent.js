@@ -21,7 +21,7 @@ function DescriptiveContent(props) {
                 style={{
                     float: isWide ? (props.invertOrder ? "right" : "left") : "none",
                 }}>
-                <Image src={props.imgSrc} width={350} height={350} objectFit='contain' />
+                <Image alt={"\"" + props.title + "\" description image"} src={props.imgSrc} width={350} height={350} objectFit='contain' />
             </div>
             <div className={styles.descriptive_content_box__element__text_wrapper} data-aos={props.invertOrder ? "fade-right" : "fade-left"}
                 style={{

@@ -8,7 +8,7 @@ function PhotoDisplay(props) {
                 {props.children}
             </div>
             <div className={styles.photo_display__image_wrapper} data-aos="fade-left">
-                <Image src={props.imgSrc} width={360} height={360} />
+                <Image alt={"Displayed image"} src={props.imgSrc} width={360} height={360} />
             </div>
         </div>
     );
