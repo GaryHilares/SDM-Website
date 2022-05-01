@@ -4,7 +4,7 @@ export default function JoinForm() {
     return (
         <div className={styles.form_wrapper} data-aos="flip-right">
             <h1 className={styles.form__title}>Formulario de postulación</h1>
-            <form action="https://www.actionforms.io/e/r/gary-test" method="POST">
+            <form action="https://www.actionforms.io/e/r/sdm-application-form" method="POST">
                 <div className={styles.form__input_wrapper}>
                     <input className={styles.form__email_entry} type="email" name="email" placeholder="Correo..." />
                 </div>
