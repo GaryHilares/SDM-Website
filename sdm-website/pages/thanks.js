@@ -15,6 +15,14 @@ export default function ThanksSite() {
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+
+                {/* TwitterCard metadata */}
+                <meta name="twitter:card" content="summary" />
+                <meta name="twitter:site" content="@MananaSonrisas" />
+                <meta name="twitter:title" content="Gracias por tu respuesta" />
+                <meta name="twitter:description" content="Revisaremos tu aplicación y te responderemos proximamente." />
+                <meta name="twitter:image" content="https://sonrisasdelmanana.org.pe/_next/image?url=%2Flogo.png&w=256&q=75" />
+                {/* /TwitterCard metadata */}
             </Head>
 
             <main className={styles.content}>

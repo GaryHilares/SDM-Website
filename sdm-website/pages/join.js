@@ -18,6 +18,14 @@ export default function JoinSite() {
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+
+                {/* TwitterCard metadata */}
+                <meta name="twitter:card" content="summary" />
+                <meta name="twitter:site" content="@MananaSonrisas" />
+                <meta name="twitter:title" content="Únete al Voluntariado Sonrisas del Mañana: Un camino hacia el futuro" />
+                <meta name="twitter:description" content="Sonrisas del mañana nació como una idea para ayudar a quienes más lo necesitan y a quienes la pandemia los afectó en mayor medida, ya sea, interrumpiendo sus estudios o afectando su aprendizaje. Es un programa que brinda ayuda mediante campañas de voluntariado, recolección de víveres y/o talleres." />
+                <meta name="twitter:image" content="https://sonrisasdelmanana.org.pe/_next/image?url=%2Flogo.png&w=256&q=75" />
+                {/* /TwitterCard metadata */}
             </Head>
 
             <main className={styles.content}>
