@@ -30,7 +30,7 @@ export default function Home() {
                 <meta name="og:title" content="Voluntariado Sonrisas del Mañana: Un camino hacia el futuro" />
                 <meta name="og:description" content="Sonrisas del mañana nació como una idea para ayudar a quienes más lo necesitan y a quienes la pandemia los afectó en mayor medida." />
                 <meta name="og:image" content="https://sonrisasdelmanana.org.pe/_next/image?url=%2Flogo.png&w=256&q=75" />
-                <meta name="og:url" content="https://sonrisasdelmanana.org.pe/join" />
+                <meta name="og:url" content="https://sonrisasdelmanana.org.pe/" />
 
                 {/* Font links */}
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
