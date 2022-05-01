@@ -13,8 +13,10 @@ export default function JoinSite() {
         <div>
             <Head>
                 <title>Sonrisas del Mañana</title>
+                <meta charSet='utf-8' />
                 <meta name="description" content="Únete a Sonrisas del mañana, el voluntariado que nació como una idea para ayudar a quienes más lo necesitan y a quienes la pandemia los afectó en mayor medida." />
                 <link rel="icon" href="/sdm.ico" />
+                <meta name="keywords" content="sonrisas, manana, mañana, voluntariado, ayuda, unirse" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
