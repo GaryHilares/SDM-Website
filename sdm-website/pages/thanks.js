@@ -10,7 +10,7 @@ export default function ThanksSite() {
         <div>
             <Head>
                 <title>Sonrisas del Mañana</title>
-                <meta name="description" content="Sonrisas del Mañana: Un camino hacia el futuro." />
+                <meta name="description" content="Gracias por rellenar el formulario. Revisaremos tu aplicación y te responderemos proximamente." />
                 <link rel="icon" href="/sdm.ico" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
@@ -20,7 +20,7 @@ export default function ThanksSite() {
                 <meta name="twitter:card" content="summary" />
                 <meta name="twitter:site" content="@MananaSonrisas" />
                 <meta name="twitter:title" content="Gracias por tu respuesta" />
-                <meta name="twitter:description" content="Revisaremos tu aplicación y te responderemos proximamente." />
+                <meta name="twitter:description" content="Gracias por rellenar el formulario. Revisaremos tu aplicación y te responderemos proximamente." />
                 <meta name="twitter:image" content="https://sonrisasdelmanana.org.pe/_next/image?url=%2Flogo.png&w=256&q=75" />
                 {/* /TwitterCard metadata */}
             </Head>
