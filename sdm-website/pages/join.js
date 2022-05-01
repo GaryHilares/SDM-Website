@@ -22,7 +22,7 @@ export default function JoinSite() {
                 <meta name="robots" content="index" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="og:title" content="Únete al Voluntariado Sonrisas del Mañana: Un camino hacia el futuro" />
-                <meta name="og:description" content="Sonrisas del mañana nació como una idea para ayudar a quienes más lo necesitan y a quienes la pandemia los afectó en mayor medida." />
+                <meta name="og:description" content="Únete a Sonrisas del mañana, el voluntariado que nació como una idea para ayudar a quienes más lo necesitan y a quienes la pandemia los afectó en mayor medida." />
                 <meta name="og:image" content="https://sonrisasdelmanana.org.pe/_next/image?url=%2Flogo.png&w=256&q=75" />
                 <meta name="og:url" content="https://sonrisasdelmanana.org.pe/join" />
 
@@ -36,7 +36,7 @@ export default function JoinSite() {
                 <meta name="twitter:card" content="summary" />
                 <meta name="twitter:site" content="@MananaSonrisas" />
                 <meta name="twitter:title" content="Únete al Voluntariado Sonrisas del Mañana: Un camino hacia el futuro" />
-                <meta name="twitter:description" content="Sonrisas del mañana nació como una idea para ayudar a quienes más lo necesitan y a quienes la pandemia los afectó en mayor medida, ya sea, interrumpiendo sus estudios o afectando su aprendizaje. Es un programa que brinda ayuda mediante campañas de voluntariado, recolección de víveres y/o talleres." />
+                <meta name="twitter:description" content="Únete a Sonrisas del mañana, el voluntariado que nació como una idea para ayudar a quienes más lo necesitan y a quienes la pandemia los afectó en mayor medida." />
                 <meta name="twitter:image" content="https://sonrisasdelmanana.org.pe/_next/image?url=%2Flogo.png&w=256&q=75" />
                 {/* /TwitterCard metadata */}
             </Head>
