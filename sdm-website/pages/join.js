@@ -17,6 +17,11 @@ export default function JoinSite() {
                 <meta name="description" content="Únete a Sonrisas del mañana, el voluntariado que nació como una idea para ayudar a quienes más lo necesitan y a quienes la pandemia los afectó en mayor medida." />
                 <link rel="icon" href="/sdm.ico" />
                 <meta name="keywords" content="sonrisas, manana, mañana, voluntariado, ayuda, unirse" />
+                <meta name="author" content="Gary Hilares" />
+                <meta name="copyright" content="Gary Hilares" />
+                <meta name="robots" content="index" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />

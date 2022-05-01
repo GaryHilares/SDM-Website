@@ -23,6 +23,11 @@ export default function Home() {
                 <meta name="description" content="Sonrisas del mañana nació como una idea para ayudar a quienes más lo necesitan y a quienes la pandemia los afectó en mayor medida, ya sea, interrumpiendo sus estudios o afectando su aprendizaje. Es un programa que brinda ayuda mediante campañas de voluntariado, recolección de víveres y/o talleres." />
                 <link rel="icon" href="/sdm.ico" />
                 <meta name="keywords" content="sonrisas, manana, mañana, voluntariado, ayuda" />
+                <meta name="author" content="Gary Hilares" />
+                <meta name="copyright" content="Gary Hilares" />
+                <meta name="robots" content="index" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />

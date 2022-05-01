@@ -14,6 +14,11 @@ export default function ThanksSite() {
                 <meta name="description" content="Gracias por rellenar el formulario. Revisaremos tu aplicación y te responderemos proximamente." />
                 <link rel="icon" href="/sdm.ico" />
                 <meta name="keywords" content="sonrisas, manana, mañana, voluntariado, ayuda" />
+                <meta name="author" content="Gary Hilares" />
+                <meta name="copyright" content="Gary Hilares" />
+                <meta name="robots" content="noindex" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
