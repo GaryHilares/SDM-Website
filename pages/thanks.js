@@ -5,7 +5,6 @@ import { NavigationBar, NavigationBarButton } from '../components/NavigationBar'
 import styles from '../styles/main.module.css';
 
 export default function ThanksSite() {
-    const goToHome = () => window.location.href = '/';
     return (
         <div>
             <Head>
@@ -42,7 +41,7 @@ export default function ThanksSite() {
 
             <main className={styles.content}>
                 <NavigationBar>
-                    <NavigationBarButton onClick={goToHome}>Inicio</NavigationBarButton>
+                    <NavigationBarButton link={'/'}>Inicio</NavigationBarButton>
                 </NavigationBar>
                 <Presentation title={"¡Gracias por rellenar el formulario!"} subtitle={"Por favor espera mientras revisamos tu solicitud y te contactamos de vuelta."} />
                 <Footer />

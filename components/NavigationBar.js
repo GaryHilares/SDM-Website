@@ -3,7 +3,7 @@ import styles from "../styles/NavigationBar.module.css";
 
 function NavigationBarButton(props) {
     return (
-        <a className={props.highlight ? styles.navigation_bar__yellow_button : styles.navigation_bar__blue_button} onClick={props.onClick}>{props.children}</a>
+        <a className={props.highlight ? styles.navigation_bar__yellow_button : styles.navigation_bar__blue_button} href={props.link}>{props.children}</a>
     );
 }
 

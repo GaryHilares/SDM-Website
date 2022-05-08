@@ -8,13 +8,6 @@ import { useRef } from "react";
 import Presentation from "../components/Presentation.js";
 
 export default function Home() {
-    const aboutUsRef = useRef(null);
-    const testimoniesRef = useRef(null);
-    const contactRef = useRef(null);
-    const goToJoin = () => window.location.href = '/join';
-    const scrollToAboutUs = () => aboutUsRef.current.scrollIntoView();
-    const scrollToTestimonies = () => testimoniesRef.current.scrollIntoView();
-    const scrollToContact = () => contactRef.current.scrollIntoView();
     return (
         <div>
             <Head>
@@ -52,13 +45,13 @@ export default function Home() {
             <main>
                 <div className={styles.content} >
                     <NavigationBar>
-                        <NavigationBarButton onClick={goToJoin} highlight={true}>¡Únete!</NavigationBarButton>
-                        <NavigationBarButton onClick={scrollToAboutUs}>Nosotros</NavigationBarButton>
-                        <NavigationBarButton onClick={scrollToTestimonies}>Testimonios</NavigationBarButton>
-                        <NavigationBarButton onClick={scrollToContact}>Contacto</NavigationBarButton>
+                        <NavigationBarButton link={'/join'} highlight={true}>¡Únete!</NavigationBarButton>
+                        <NavigationBarButton link={'/#about-us'}>Nosotros</NavigationBarButton>
+                        <NavigationBarButton link={'/#testimonials'}>Testimonios</NavigationBarButton>
+                        <NavigationBarButton link={'/#contact'}>Contacto</NavigationBarButton>
                     </NavigationBar>
                     <Presentation title={"Sonrisas del Mañana"} subtitle={"Un camino hacia el futuro"} imgSrc={"/SDM Happy Face.png"} />
-                    <div ref={aboutUsRef}></div>
+                    <div id="about-us"></div>
                     <DescriptiveContentBox title={"Nosotros"}>
                         <DescriptiveContent title={"¿Quiénes somos?"} imgSrc={"/people.png"}>
                             Sonrisas del mañana nació como una idea para ayudar a quienes más lo necesitan y a quienes la pandemia
@@ -76,7 +69,7 @@ export default function Home() {
                             entornos para con ello tener líderes competitivos del futuro y así mejorar como sociedad.
                         </DescriptiveContent>
                     </DescriptiveContentBox>
-                    <div ref={testimoniesRef}></div>
+                    <div id="testimonials"></div>
                     <TestimoniesBox title={"Testimonios"}>
                         <Testimony backgroundColor="#F6A800" author="Alguien" year={"Año"}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis leo nec eros fringilla lacinia.
@@ -99,7 +92,7 @@ export default function Home() {
                             Proin varius est mi. Fusce tincidunt nec augue in gravida.
                         </Testimony>
                     </TestimoniesBox>
-                    <div ref={contactRef}></div>
+                    <div id="contact"></div>
                     <Footer />
                 </div >
             </main>
