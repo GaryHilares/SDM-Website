@@ -40,6 +40,10 @@ export default function Home() {
                 <meta name="twitter:description" content="Sonrisas del mañana nació como una idea para ayudar a quienes más lo necesitan y a quienes la pandemia los afectó en mayor medida." />
                 <meta name="twitter:image" content="https://sonrisasdelmanana.org.pe/_next/image?url=%2Flogo.png&w=256&q=75" />
                 {/* /TwitterCard metadata */}
+
+                {/* Google Search Console Verification */}
+                <meta name="google-site-verification" content="mQnFWATzZ8z4MVcOiB8-r19BngSGxQX_jCgKNr8tgMc" />
+                {/* /Google Search Console Verification */}
             </Head>
 
             <main>
