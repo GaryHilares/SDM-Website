@@ -8,7 +8,6 @@ import JoinForm from '../components/joinForm.js';
 import { PhotoDisplay, PhotosDisplayBox } from '../components/PhotosDisplay.js';
 
 export default function JoinSite() {
-    const goToHome = () => window.location.href = '/';
     return (
         <div>
             <Head>
@@ -45,7 +44,7 @@ export default function JoinSite() {
 
             <main className={styles.content}>
                 <NavigationBar>
-                    <NavigationBarButton onClick={goToHome}>Inicio</NavigationBarButton>
+                    <NavigationBarButton link={'/'}>Inicio</NavigationBarButton>
                 </NavigationBar>
                 <Presentation title={"¡Únete a Sonrisas del Mañana!"} subtitle={"Ser voluntario es una experiencia única y aleccionadora de dar y recibir."} />
                 <DescriptiveContentBox title={"¿Por qué participar?"}>
