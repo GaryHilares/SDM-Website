@@ -57,7 +57,7 @@ To build SDM Website from source you must follow the next steps:
      - Use `npm run build` to create a production build.
 
 ## License
-All rights of content owned in this repository are reserved to Gary Strivin'.
+This work is licensed under a [Creative Commons Attribution 4.0 International License](https://github.com/GaryHilares/SDM-Website/blob/main/LICENSE).
 
 ## Contributors
 Thanks to these wonderful people for making SDM Website possible!
