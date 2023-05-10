@@ -19,7 +19,7 @@
 ## What is SDM Website?
 SDM Website is a website designed for Sonrisas del Mañana, a Peruvian non-profit organization. Currently, the website's text is written in Spanish.
 
-### Platform
+### Platforms
 Any OS.
 
 Browsers:
@@ -33,12 +33,8 @@ Browsers:
 
 ### Dependencies
 #### Development
-- Node.
-- NPM.
-- NextJS.
-- React DOM.
-- React.
-- AOS.
+- Node
+- Node Package Manager
 
 ## Motivation
 In order to reach more people, Sonrisas del Mañana needed a website to present their volunteering program.
@@ -56,10 +52,11 @@ To build SDM Website from source you must follow the next steps:
      - Use `npm run dev` for development.
      - Use `npm run build` to create a production build.
 
-## License
-This work is licensed under a [Creative Commons Attribution 4.0 International License](https://github.com/GaryHilares/SDM-Website/blob/main/LICENSE).
 
 ## Contributors
 Thanks to these wonderful people for making SDM Website possible!
 
 <p align="center"><a href="https://github.com/GaryStriving/SDM-Website/graphs/contributors"><img src="https://contrib.rocks/image?repo=GaryStriving/SDM-Website" /></a></p>
+
+## License
+This work is licensed under a [Creative Commons Attribution 4.0 International License](https://github.com/GaryHilares/SDM-Website/blob/main/LICENSE).
